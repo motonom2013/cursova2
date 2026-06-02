@@ -1,15 +1,18 @@
 #game{
     display: grid;
-    grid-template-rows:repeat(3 ,25px);
-    grid-template-columns:repeat(3 ,25px) ;
+    grid-template-rows:repeat(3 ,125px);
+    grid-template-columns:repeat(3 ,125px) ;
 }
 .aa{background-color: yellow;}
 .ab{background-color: rgb(130, 130, 255);}
 .b:disabled{opacity:1;
-color:black;}
-.retry{height: 25px;
-width: 75px;}
+color:black;
+border-width: 10px;}
+.retry{height: 125px;
+width: 375px;}
+p{font-size: 50px;}
 body {background-color: orange;
 display: flex;
-gap: 10px;}
+gap: 10px;
+justify-content: center;}
 
